@@ -1,0 +1,109 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bio/Portofolio</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="#" class="navbar-logo">Porto<span>folio</span></a>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+
+    </nav>
+    <h1>
+        Hi, Iam Nafisa
+    </h1>
+
+    <div class="profile">
+        <h2>NAMA LENGKAPNYA</h2>
+        <p>Anisatun Nafisa</p>
+    </div>
+
+    <div class="card-container"> 
+
+        <div class="card">
+            <h3>MATA KULIAH</h3>
+            <p>Pengembangan Aplikasi Web <br> Saya sedang belajar Django, HTML, dan CSS</p>
+        </div>
+        
+        <div class="card">
+            <h3>PROGRAM STUDI</h3>
+            <p>Sains Data <br> Fakultas Sains dan Teknologi
+            </p>
+        </div>
+        
+        <div class="card">
+            <h3>KAMPUS</h3>
+            <p>Universitas Islam Negeri (UIN) <br> Salatiga</p>
+        </div>
+        
+    </div>
+    
+    <div class="keahlian">  
+        <h2>SKILLS</h2>
+
+        <div class="card-container2">
+
+        <div class="skill-list">
+
+            <div class="card2">
+                <span>Python</span>
+                <span>30%</span>
+            </div>
+
+            <div class="card2">
+                <span>HTML</span>
+                <span>50%</span>
+            </div>
+
+            <div class="card2">
+                <span>CSS</span>
+                <span>50%</span>
+            </div>
+
+            <div class="bar">
+                <div class="progres css"></div>
+            </div>
+            
+        </div>
+
+        </div>
+
+    </div>
+
+    <div class="profile-pic-container">
+        <img src="{% static 'img/nana.jpeg' %}" alt="profil" class="profile-pic">
+    </div>
+
+    <div class="card-container3">
+        <h2>RIWAYAT PENDIDIKAN</h2>
+
+        <div class="card3">
+            <h3>SD</h3>
+            <p>SD N Sedayu 1</p>
+        </div>
+
+        <div class="card3">
+            <h3>SMP</h3>
+            <p>MTs Rohmatullah Cokro</p>
+        </div>
+
+        <div class="card3">
+            <h3>SMA</h3>
+            <p>MA Rohhmatullah Cokro</p>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>&copy; Nafisa. SD A' 2024</p>
+    </footer>
+</body>
+</html>
