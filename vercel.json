@@ -2,14 +2,14 @@
   "version": 2,
   "builds": [
     {
-      "src": "revisi_bio/wsgi.py",
+      "src": "revisi_uts/wsgi.py",
       "use": "@vercel/python"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "revisi_bio/wsgi.py"
+      "dest": "revisi_uts/wsgi.py"
     }
   ]
 }
